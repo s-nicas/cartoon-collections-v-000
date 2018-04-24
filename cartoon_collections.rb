@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   results = []
-  planeteer_calls.find do |calls|
+  planeteer_calls.each do |calls|
     results.push(calls.length>4) 
     end 
      results.include?(true)
