@@ -4,8 +4,11 @@ def roll_call_dwarves(dwarf_names)
   end 
 end
 
-def summon_captain_planet
-  
+def summon_captain_planet(planeteer_calls)
+  updated_planeteer_calls =[]
+   planeteer_calls.each do |calls|
+     calls[0].upcase 
+     updated_planeteer_calls.push("#{calls}!")
 end
 
 def long_planeteer_calls# code an argument here
