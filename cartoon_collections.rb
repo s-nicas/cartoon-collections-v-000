@@ -13,10 +13,9 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(planeteer_calls)
+  results = []
   planeteer_calls.find do |calls|
-    calls.length>4 ? true : false 
-      
-     
+    results.push(calls.length>4) 
     end 
 end
 
