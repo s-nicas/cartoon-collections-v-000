@@ -7,8 +7,10 @@ end
 def summon_captain_planet(planeteer_calls)
   updated_planeteer_calls =[]
    planeteer_calls.each do |calls|
-     calls[0].upcase 
-     updated_planeteer_calls.push("#{calls}!")
+     
+     updated_planeteer_calls.push("#{calls.capitalize}!")
+   end 
+   return updated_planeteer_calls
 end
 
 def long_planeteer_calls# code an argument here
