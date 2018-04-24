@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   
-  planeteer_calls.
+  planeteer_calls.find 
   end
 end
 
