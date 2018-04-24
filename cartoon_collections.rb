@@ -23,7 +23,7 @@ def find_the_cheese(foods)
   
   foods.collect do |item|
     if cheese_types.include?(item) 
-      return item 
+      return item[0]
     end
  end  
 end
