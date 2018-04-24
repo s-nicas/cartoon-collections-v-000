@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   
-  planeteer_calls.include? (.length>4)
+  planeteer_calls.
   end
 end
 
