@@ -14,7 +14,8 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.find do |calls|
-    calls.lenght>4 
+    if calls.lenght>4 
+      return true 
 
 end
 
