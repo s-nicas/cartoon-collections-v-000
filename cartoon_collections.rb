@@ -15,6 +15,7 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.find do |calls|
     results.push(calls.length>4) 
     end 
+     results.include?(true)
 end
 
 def find_the_cheese# code an argument here
